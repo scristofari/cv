@@ -1,4 +1,5 @@
-var page = new WebPage();
+var page = new WebPage(),
+    moment = require('moment');
 
 page.paperSize = {
   width: '768px',
@@ -6,6 +7,6 @@ page.paperSize = {
 };
 
 page.open("public/index.html", function (status) {
-    page.render("cv.pdf");
+    page.render("pdf/cv-" + moment().format("DD-mm-YYYY") + ".pdf");
     phantom.exit();
 });
