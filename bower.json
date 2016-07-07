@@ -1,0 +1,21 @@
+{
+  "name": "cv",
+  "description": "",
+  "main": "build.js",
+  "authors": [
+    "Sylvain Cristofari"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "^5.5.3",
+    "foundation-sites": "^6.2.3"
+  }
+}
