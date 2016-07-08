@@ -1168,8 +1168,40 @@ body {
 
 .page {
   width: 100%;
-  height: 1024px;
-  border: 1px solid black; }
+  height: 1024px; }
+  .page .circle {
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 25px; }
+  .page .circle-js {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    border: 4px solid #DE3535; }
+  .page .circle-go {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background-color: #DE3535;
+    left: 170px;
+    top: 1600px;
+    color: white; }
+  .page .circle-veille {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: grey;
+    left: 100px;
+    top: 1680px;
+    color: white; }
+  .page .loisir li {
+    margin-bottom: 20px; }
+  .page .content {
+    height: 784px; }
   .page h1, .page h2 {
     color: white;
     text-transform: uppercase;
@@ -1190,10 +1222,11 @@ body {
       padding-left: 25px; }
       .page .col-1 ul li {
         padding-left: 1em;
-        text-indent: -.7em; }
+        text-indent: -.7em;
+        color: grey; }
       .page .col-1 ul li:before {
         content: "•    ";
-        color: red; }
+        color: #DE3535; }
   .page .col-2 ul {
     padding-left: 15px; }
   .page .col-2 li {
@@ -1201,10 +1234,12 @@ body {
     list-style-type: none; }
   .page .contact {
     color: grey; }
+    .page .contact.linkedin {
+      font-size: 15px; }
   .page .box-content .entreprise {
     font-weight: bold; }
   .page .box-content .job {
-    color: red;
+    color: #DE3535;
     text-transform: uppercase; }
   .page .box-content span {
     display: block; }
@@ -1212,17 +1247,19 @@ body {
     color: grey;
     font-style: italic; }
   .page .box .school {
-    color: red; }
+    color: #DE3535;
+    width: 100%;
+    display: block; }
   .page .box .diplome-date {
     color: grey; }
   .page .box h3 {
     text-transform: uppercase;
-    color: red;
-    border-bottom: 3px solid red;
+    color: #DE3535;
+    border-bottom: 3px solid #DE3535;
     width: 100%; }
 
 .header {
-  background-color: red;
+  background-color: #DE3535;
   margin-top: 25px;
   text-align: center;
   margin-bottom: 10px; }
@@ -1231,12 +1268,9 @@ body {
     margin-right: 0; }
 
 .footer {
-  background-color: red;
+  background-color: #DE3535;
   margin-top: 25px;
   text-align: center;
-  left: 0;
-  bottom: 0;
-  position: absolute;
   width: 100%;
   height: 90px; }
   .footer.row {
@@ -1248,6 +1282,10 @@ body {
     text-align: left;
     color: white;
     margin-left: 25px; }
+  .footer ul li {
+    display: inline;
+    color: white;
+    padding-right: 60px; }
   .footer .objectif {
     text-transform: uppercase;
     border-bottom: 3px solid white;

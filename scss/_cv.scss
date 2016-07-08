@@ -1,4 +1,4 @@
-$basecolor: red;
+$basecolor: #DE3535;
 $grey: grey;
 
 body {
@@ -7,8 +7,47 @@ body {
 .page {
     width: 100%;
     height: 1024px;
-    border: 1px solid black;
-
+    .circle {
+        position: absolute;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: middle;
+        text-transform: uppercase;
+        display: inline-block;
+        font-size: 25px;
+    }
+    .circle-js {
+	    width: 200px;
+	    height: 200px; 
+        line-height: 200px;
+        border: 4px solid $basecolor;
+    }
+    .circle-go {
+	    width: 150px;
+	    height: 150px;
+        line-height: 150px;
+        background-color: $basecolor;
+        left: 170px;
+        top: 1600px;
+        color: white;
+    }
+    .circle-veille {
+	    width: 100px;
+	    height: 100px;
+        line-height: 100px;
+        background-color: $grey;
+        left: 100px;
+        top: 1680px;
+        color: white;
+    }
+    .loisir {
+        li {
+            margin-bottom: 20px;
+        }
+    }
+    .content {
+        height: 784px;
+    }
     h1, h2 {
         color: white;
         text-transform: uppercase;
@@ -34,6 +73,7 @@ body {
             li {
                 padding-left: 1em; 
                 text-indent: -.7em;
+                color: $grey;
             }
            li:before {
                 content: "•    ";
@@ -52,6 +92,10 @@ body {
     }
     .contact {
         color: $grey;
+
+        &.linkedin {
+            font-size: 15px;
+        }
     }
     .box-content {
         .entreprise {
@@ -72,6 +116,8 @@ body {
     .box {
         .school {
             color: $basecolor;
+            width: 100%;
+            display: block;
         }
         .diplome-date {
             color: $grey;
@@ -104,9 +150,6 @@ body {
         margin-left: 0;
         margin-right: 0;
     }
-    left: 0;
-    bottom: 0;
-    position: absolute;
     width: 100%;
     height: 90px;
 
@@ -116,6 +159,13 @@ body {
         text-align: left;
         color: white;
         margin-left: 25px;
+    }
+    ul {
+        li {
+            display:inline;
+            color: white;
+            padding-right: 60px;
+        }
     }
     .objectif {
         text-transform: uppercase;

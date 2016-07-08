@@ -7,6 +7,6 @@ page.paperSize = {
 };
 
 page.open("public/index.html", function (status) {
-    page.render("pdf/cv-" + moment().format("DD-mm-YYYY") + ".pdf");
+    page.render("pdf/cv-" + moment().format("DD-MM-YYYY") + ".pdf");
     phantom.exit();
 });
