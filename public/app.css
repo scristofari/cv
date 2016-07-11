@@ -1212,11 +1212,12 @@ body {
     height: 784px; }
   .page h1, .page h2 {
     color: white;
-    text-transform: uppercase;
-    font-size: 20px; }
+    text-transform: uppercase; }
   .page h1 {
+    font-size: 25px;
     margin-bottom: 0px; }
   .page h2 {
+    font-size: 15px;
     margin-top: 0px; }
   .page .col-1 {
     padding-left: 40px; }
