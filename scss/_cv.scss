@@ -37,7 +37,7 @@ body {
         line-height: 120px;
         background-color: $basecolor;
         left: 570px;
-        top: 1500px;
+        top: 1540px;
         color: white;
         z-index: 2;
     }
@@ -47,7 +47,7 @@ body {
         line-height: 100px;
         background-color: $grey;
         left: 515px;
-        top: 1580px;
+        top: 1620px;
         color: white;
     }
     .loisir {
@@ -72,6 +72,9 @@ body {
     }  
     .col-1 {
         padding-left: 40px;
+        li {
+            list-style: none;
+        }
         .contact {
             text-align: right;
             width: 100%;
@@ -80,6 +83,18 @@ body {
             &:first-child {
                 padding-top: 4px; 
             }
+        }
+        > .box-content {
+            margin-top: 30px;
+        }
+    }
+    .col-2 {
+        ul {
+            padding-left: 15px;
+        }
+        li {
+            color: $grey;
+            list-style-type: none;
         }
         ul {
             margin-top: 5px;
@@ -94,18 +109,6 @@ body {
                 content: "•    ";
                 color: $basecolor;
             }
-        }
-        > .box-content {
-            margin-top: 30px;
-        }
-    }
-    .col-2 {
-        ul {
-            padding-left: 15px;
-        }
-        li {
-            color: $grey;
-            list-style-type: none;
         }
     }
     .contact {
