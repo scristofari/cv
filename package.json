@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node_modules/.bin/phantomjs build.js",
     "server": "node_modules/.bin/http-server public",
-    "sass": "node_modules/.bin/node-sass scss/app.scss public/app.css --include-path bower_components/foundation-sites/scss"
+    "sass": "node-sass scss/app.scss public/app.css --include-path bower_components/foundation-sites/scss"
   },
   "author": "Sylvain Cristofari",
   "license": "MIT",
