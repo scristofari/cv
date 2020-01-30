@@ -1,4 +1,4 @@
-$basecolor: #3C5899;
+$basecolor: #3c5899;
 $grey: grey;
 
 body {
@@ -26,28 +26,28 @@ body {
         font-size: 18px;
     }
     .circle-js {
-	    width: 150px;
-	    height: 150px; 
+        width: 150px;
+        height: 150px;
         line-height: 45px;
         border: 4px solid $basecolor;
     }
     .circle-go {
-	    width: 120px;
-	    height: 120px;
+        width: 120px;
+        height: 120px;
         line-height: 120px;
         background-color: $basecolor;
         left: 570px;
-        top: 1715px;
+        top: 1664px;
         color: white;
         z-index: 2;
     }
     .circle-veille {
-	    width: 100px;
-	    height: 100px;
+        width: 100px;
+        height: 100px;
         line-height: 100px;
         background-color: $grey;
         left: 515px;
-        top: 1780px;
+        top: 1718px;
         color: white;
     }
     .loisir {
@@ -58,7 +58,8 @@ body {
     .content {
         height: 785px;
     }
-    h1, h2 {
+    h1,
+    h2 {
         color: white;
         text-transform: uppercase;
     }
@@ -69,7 +70,7 @@ body {
     h2 {
         font-size: 15px;
         margin-top: 0px;
-    }  
+    }
     .col-1 {
         padding-left: 40px;
         li {
@@ -81,7 +82,7 @@ body {
             display: block;
 
             &:first-child {
-                padding-top: 4px; 
+                padding-top: 4px;
             }
         }
         > .box-content {
@@ -101,11 +102,11 @@ body {
             list-style: none;
             padding-left: 25px;
             li {
-                padding-left: 1em; 
-                text-indent: -.7em;
+                padding-left: 1em;
+                text-indent: -0.7em;
                 color: $grey;
             }
-           li:before {
+            li:before {
                 content: "•    ";
                 color: $basecolor;
             }
@@ -180,7 +181,7 @@ body {
     }
     ul {
         li {
-            display:inline;
+            display: inline;
             color: white;
             padding-right: 60px;
         }
